@@ -1,0 +1,22 @@
+1 . unary operator
+    it will reqired only one operands
+    ex: increment / decrement operator -> a++ , ++a
+
+2. binary operator 
+    it will require two operand 
+     ex : addition, subtraction, multiplication, division etc..
+
+3 ternary operator 
+    it will reqired three operands 
+
+
+1. Airthmatic  operator : + , - , *  , / , % , ** 
+2. logical operator  : && , || , !
+3. bitwise operator  : &  , | , ^
+4. relational operators :  == , != , > , < , >= , <= , === , !==
+5. assignment operator  : = , += , -= , *= , /= , %= , **=
+6. comparison operator  : == , != , <= , >= , === , !==
+
+
+
+

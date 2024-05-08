@@ -1,0 +1,5 @@
+js -> javascript is a single threaded language 
+java -> java has suported multi thredded
+
+
+Soluteion : call back

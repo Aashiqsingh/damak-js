@@ -1,0 +1,13 @@
+Function :- increase code reusiblity 
+
+There is a keyword : function 
+
+
+There are four types of function.
+1) with return type with argument
+2) without return type and with arguments
+3) with return type but no argument
+4) without return type and without argument
+
+
+Return type : return 
