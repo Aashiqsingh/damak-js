@@ -48,5 +48,8 @@ JavaScript have not Datatypes .
 Js Use :- to manipulate the DOM(Document object model)
 
 
+Task :- 
 
+
+bank - enter - yes or no  -- if yes  -- withdral or check balance  - 15000 - 
 

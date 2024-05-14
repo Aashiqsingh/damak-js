@@ -22,9 +22,6 @@ const wordHandler = (option) => {
 //     //     fname:file,
 //     //     size: "10MB",
 //     // })
-
-    
-
 // }
 const upload = (file,cb)=> cb({fname:file,size:"30kb"})
 

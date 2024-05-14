@@ -2,4 +2,41 @@ js -> javascript is a single threaded language
 java -> java has suported multi thredded
 
 
-Soluteion : call back
+Solution : call back
+
+
+
+bank - withdrwal(amout) = amount
+
+
+const check balance = () =>{
+
+    var Avaibal = 450000;
+    log
+}
+
+const withdrawl = (amout)=>{
+    var avilble = 450000
+
+    log(you wid )
+    log(your after wdthdral )
+}
+
+
+const bank = ()=>{
+
+    var prompt = 1 for withdrwal
+    2 for deposit
+    3 che k 
+
+
+    switch 
+    1 :  withdrea(12000)
+}
+
+x = promt("do yo want enter )
+
+if(x === true)
+{
+    bank()
+}
