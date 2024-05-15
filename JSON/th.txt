@@ -1,0 +1,6 @@
+JSON --> Javascript object notation
+
+{
+    name:"Damak",
+    age: 24,
+}
