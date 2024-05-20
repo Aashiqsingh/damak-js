@@ -1,0 +1,4 @@
+what is array ?
+array is a collection or group of data.
+
+array is a hetrogenues 
