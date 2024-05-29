@@ -1,0 +1,9 @@
+DOM -- Document object model
+
+
+When you need to identify.
+id -- uniqui
+class -- multiple
+name  -- multiple 
+tagname -- multiple
+queryselector
