@@ -11,17 +11,24 @@ function changetext(){
     x.style.backgroundColor = "teal"
 }
 
-function changecolor(){
+// function changecolor(){
 
-    const myDiv = document.getElementById("myDiv")
-    myDiv.style.height = "200px",
-    myDiv.style.width = "200px",
-    myDiv.style.backgroundColor = "red",
-    myDiv.style.color = "white",
-    myDiv.style.fontSize = "20px"
-}
+//     const myDiv = document.getElementById("myDiv")
+//     myDiv.style.height = "200px",
+//     myDiv.style.width = "200px",
+//     myDiv.style.backgroundColor = "red",
+//     myDiv.style.color = "white",
+//     myDiv.style.fontSize = "20px"
+// }
 
-function blue(){
-    const myDiv = document.getElementById("myDiv")
-    myDiv.style.backgroundColor = "blue"
+// function blue(){
+//     const myDiv = document.getElementById("myDiv")
+//     myDiv.style.backgroundColor = "blue"
+// }
+
+function changeHref(){
+
+    var box = document.getElementById("box")
+    box.href = "https://www.netflix.com"
+    box.innerHTML = "Netflix"
 }
