@@ -1,16 +1,19 @@
+
 function changeColor(){
+    var images = ["img1.jpg","img2.jpg","img3.jpeg","img4.avif","img5.jpg"]
+    var random = Math.floor(Math.random() * images.length)
+    
+    var path = '../Images/'+images[random]
+    // document.body.bgColor = "red"
+    document.body.background = path
 
-    document.body.bgColor = "red"
 
-    setTimeout(blue , 3000);
+   
+        setTimeout(changeColor, 3000);
+    
+    
 }
 
-function blue(){
-    document.body.bgColor = "blue"
-    setTimeout(green , 2000)
-}
 
-function green(){
-    document.body.bgColor = "green"
-    setTimeout(changeColor , 2000)
-}
+
+
