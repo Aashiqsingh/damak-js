@@ -13,6 +13,9 @@
 
 
 
+
+
+
 var images = ["img1.jpg","img2.jpg","img3.jpeg","img4.avif","img5.jpg"]
 
 function change(){
@@ -24,6 +27,7 @@ function change(){
     var path = "../Images/"+ images[random]
 
     myimg.src = path
+
     
 
 }
