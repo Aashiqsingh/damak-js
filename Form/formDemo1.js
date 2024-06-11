@@ -1,6 +1,6 @@
 
 function callFun(){
-    var x = document.getElementById("ans")
-
+    var input = document.getElementById("ans")
+    console.log(input.value);
     
 }
