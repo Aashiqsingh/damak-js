@@ -67,6 +67,8 @@ const submitHandler = (event) => {
         age: age.value
     }
 
+   
+
     // output.innerHTML = JSON.stringify(objData);
 
 
