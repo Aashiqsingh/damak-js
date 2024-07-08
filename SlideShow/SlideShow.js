@@ -9,8 +9,7 @@ const image = document.getElementById("image");
 prev.addEventListener("click",()=>{
 
 
-    // 0 = 0-1 + 5 % 5
-    // 3 = (3 -1 + 5) % 5 = 
+    //        1  = (2 -1 + 5)%5
     currentIndex = (currentIndex - 1 + images.length)% images.length;
 
     image.src = "../Images/"+images[currentIndex]
@@ -20,7 +19,7 @@ prev.addEventListener("click",()=>{
 
 next.addEventListener("click",()=>{
 
-    // 0 = 0 + 1 % 5
+    // 1 = 1 + 1 % 5
     currentIndex = (currentIndex + 1) % images.length
 
     image.src = "../Images/"+images[currentIndex]
