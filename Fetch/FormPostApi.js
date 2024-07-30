@@ -1,8 +1,8 @@
-const postData = ()=>{
+const postData = () => {
 
     const box = document.getElementById('box');
     const stuform = document.createElement("form")
-    stuform.setAttribute("id","output")
+    stuform.id = "output"
     const nameLable = document.createElement("label")
     nameLable.innerHTML = "Name"
     const nameTd = document.createElement("input")
@@ -20,11 +20,30 @@ const postData = ()=>{
     const status = document.createElement("input")
     status.setAttribute("type", "text")
 
-    const submitTd = document.createElement("input")
-    submitTd.setAttribute("type", "submit")
+    const button = document.createElement("button")
+    button.innerHTML = "Submit"
+    button.addEventListener("click", async (event) => {
+        event.preventDefault()
+
+        const res = await fetch("https://node5.onrender.com/user/user", {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                name: nameTd.value,
+                email: emailTd.value,
+                age: ageTd.value,
+                isActive: status.value
+            })
+        })
+
+        const ress = await res.json()
+        console.log(ress.data);
+        console.log("data added successfully");
+    })
 
 
-    
 
 
 
@@ -37,33 +56,14 @@ const postData = ()=>{
     stuform.appendChild(ageTd)
     stuform.appendChild(statusLable)
     stuform.appendChild(status)
-    stuform.appendChild(submitTd)
+    stuform.appendChild(button)
 
 
 
-    const output = document.getElementById("output")
-    output.addEventListener("submit",async (event)=>{
-        event.preventDefault()
-        
-        const res = await fetch("https://node5.onrender.com/user/user",{
-            method: "POST",
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                name: nameTd.value,
-                email: emailTd.value,
-                age: ageTd.value,
-                status: status.value
-            })
-        })
 
-        const ress = await res.json()
 
-        console.log("data added successfully");
-    })
 
-        
+
 
 }
 
