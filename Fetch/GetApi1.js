@@ -35,8 +35,24 @@ const getData = async () => {
         btn.style.backgroundColor = "red"
         btn.style.color = "white"
         btn.style.border = "none"
-        btn.addEventListener("click", () => {
-            alert("data deleted successfully  " + res.data[i].id)
+        btn.addEventListener("click", async() => {
+            // alert("data deleted successfully  " + res.data[i].id)
+
+            // const res = await fetch("https://node5.onrender.com/user/user/"+res.data[i].id,{
+            //     method: 'DELETE',
+            //     headers: {
+            //         'Content-Type': 'application/json'
+            //     }
+            // })
+
+            
+
+            // if(res.ok){
+            //     alert("data deleted successfully  " + res.data[i].id)
+            //     getData()
+            // }else{
+            //     alert("Failed to delete data  " + res.data[i].id)
+            // }
         })
 
 
